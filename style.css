@@ -1,0 +1,135 @@
+ body {
+    background-color: black;
+   }
+.navbar{
+    background-image: url("ml2.jpg");
+    position: sticky;
+    background-color: black;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+.h1{
+    color: white;
+}
+/* Header */
+header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+.header-col-group {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.header-col-group > div:first-child{
+    width: 20%;
+}
+.header-col-group > div:last-child{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+.main-logo img{
+    width: 50px !important;
+    height: 50px !important;
+}
+
+.navbar-toggler {
+    background: #ccc !important;
+}
+.fa-bars{
+    color:#fff;
+    font-size: 30px !important;
+}
+/* End of Header */
+/* body content */
+.carousel-item img{
+ width: auto;
+ height: 245px;
+ max-height: 245px;
+ margin: auto; 
+ display: block;
+ }
+div.jumbotron{
+    background-image: url("ml2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: black;
+}
+div.row{
+    padding: 30px;
+}
+p{
+    color: white;
+}
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  position: static;
+} 
+.jumbotron2{
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+hr{
+    border: 1px solid white;
+}
+/* gallery */
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    /* float: left; */
+    /* width: 180px; */
+    /* height: 180px; */
+  }
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .gallery-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery-group > div{
+    flex: 0 0 20%;
+}
+  
+/* device */
+@media(min-width: 769px){
+}
+@media(min-width: 769px){
+    .main-menu{
+        display: block;
+        visibility: visible;
+    }
+    
+    .mobile-menu{
+        display: none;
+    }
+}
+@media(max-width: 768px){
+    .main-menu{
+        display: none;
+        visibility: hidden;
+    }
+}
